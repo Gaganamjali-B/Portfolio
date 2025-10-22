@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Projects | ApexPortfolio</title>
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+  <header>
+    <h1 class="logo">ApexPortfolio</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="projects.html" class="active">Projects</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <section class="card fade">
+    <h2>My Projects</h2>
+    <div class="filters">
+      <button onclick="filterProjects('all')">All</button>
+      <button onclick="filterProjects('web')">Web</button>
+      <button onclick="filterProjects('design')">Design</button>
+      <button onclick="filterProjects('app')">App</button>
+    </div>
+
+    <div id="projectContainer" class="projects"></div>
+  </section>
+
+  <footer>© 2025 ApexPortfolio</footer>
+  <script src="assets/js/script.js"></script>
+</body>
+</html>
